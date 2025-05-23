@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-100 min-h-screen flex items-center justify-center">
+
+    <div class="max-w-md w-full bg-white shadow-lg rounded-xl p-5">
+        <h1 class="text-2xl font-bold text-center mb-5">Weather Forecast</h1>
+        
+        <input type="text" id="cityInput" placeholder="Enter city name" 
+            class="w-full px-3 py-2 mb-4 border border-gray-300 rounded-md focus:outline-none">
+
+        <button id="searchBtn" 
+            class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">
+            Search
+        </button>
+        
+        <div id="weatherData" class="mt-5">
+            <!-- Weather Information will be displayed here -->
+        </div>
+
+        <div class="mt-5">
+            <h2 class="text-lg font-semibold">Recently Searched</h2>
+            <ul id="recentCities" class="list-disc list-inside">
+                <!-- Recently searched cities will appear here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
