@@ -15,5 +15,5 @@ A simple weather forecast app that shows real-time weather updates using a publi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather-forecast.git
+   git clone https://github.com/Krishu2370/weather-app.git
    cd weather-forecast
